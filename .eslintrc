@@ -1,0 +1,43 @@
+{
+  "extends": ["eslint:recommended", "plugin:node/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "plugins": [
+      "jasmine"
+    ],
+    "ecmaFeatures": {
+      "modules": true
+    },
+    "sourceType": "module",
+    "rules": {
+      "strict": 0
+    }
+  },
+  "rules": {
+    "one-var": "off",
+    "no-unused-vars": "warn",
+    "no-return-assign": "warn",
+    "space-before-function-paren": "off",
+    "no-console": "off",
+    "no-cond-assign": "off",
+    "node/no-unpublished-require": "off",
+    "node/no-unsupported-features/es-syntax": "off"
+  },
+  "globals": {
+    "window": true,
+    "console": true,
+    "require": true,
+    "process": true,
+    "exports": true,
+    "__dirname": true,
+    "module": true,
+    "document": true,
+    "HIGHLIGHT_LANGUAGES": true,
+    "Reveal": true,
+    "FA_CSS_LOCAL": true
+  },
+  "env": {
+    "jasmine": true,
+    "es6": true
+  }
+}
