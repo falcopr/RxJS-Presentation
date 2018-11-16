@@ -21,12 +21,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
     width: 960,
     height: 700,
     // margin: 0.05, // Factor of the display size that should remain empty around the content
-    controls: false, // Display controls in the bottom right corner
+    controls: true, // Display controls in the bottom right corner
     progress: true, // Display a presentation progress bar
-    slideNumber: false, // Display the page number of the current slide
+    slideNumber: true, // Display the page number of the current slide
     history: true, // Push each slide change to the browser history
     keyboard: true, // Enable keyboard shortcuts for navigation
-    center: false, // Vertical centering of slide
+    center: true, // Vertical centering of slide
     overview: true,
     transition: 'slide', // Transition style: none/fade/slide/convex/concave/zoom
     transitionSpeed: 'default', // Transition speed: default/fast/slow
